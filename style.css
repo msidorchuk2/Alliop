@@ -1,0 +1,161 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    background-color: gold;
+    width: 100%;
+    
+}
+header{
+    width: 100%;
+    background-color:blue ;
+    border-bottom: 5px solid black ;
+    margin-top: 0px;
+    display:flex ;
+    
+}
+nav{
+    border-bottom: 5px solid black;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+main{
+    background-color: gold;
+    width: 100%;
+    
+}
+footer{
+    background-color: blue;
+}
+header img{
+    width: 70px;
+    height: 70px;
+    margin:5px;
+}
+header h1{
+    color: white;
+    margin-left: 20%;
+}
+footer img{
+    width: 50px;
+    height: 50px; 
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    border: 5px solid blue;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 3px gray;
+}
+main p{
+    font-size: 34px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.blue_text{
+    color:blue;
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+}
+iframe{
+    width: 30%;
+    height: 90%;
+}
+
+footer{
+    border-bottom: 5px solid black;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+footer img{
+    width:70px ;
+    height:60px ;
+
+}
+footer p {
+    font-size: 20px;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    height: 40%;
+}
+.name-page,.name-product{
+    text-align: center;
+    text-shadow: 10px 10px 10px blue;
+    position: relative;
+    font-size: 2em;
+    margin-top:1% ;
+}
+
+.name-page::before{
+    content: "";
+    background-image: url("https://drive.google.com/uc?export=veiw&id=1JGtQddEfuqYBigutCN842YZ0mXXp8U7a");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    left: 43%;
+}
+.name-page::after{
+    content: "";
+    background-image: url("https://drive.google.com/uc?export=veiw&id=13Hu-V0p46RlnkzwEK2td-DhQKDQ98fzN");
+    width: 50px;
+    height: 50px;
+    background-size: 55px 50px;
+    position: absolute;
+    right: 43%;
+}
+.products{
+    display: flex;
+    width: 80%;
+    margin-left:10% ;
+    justify-content:space-between;
+    margin-bottom: 2%;
+}
+.product{
+    border: 15px dashed blue;
+    padding: 1%;
+    width: 25%;
+    border-radius: 30%;
+    position: relative;
+    background-color: gold;
+}
+.product img{
+    width:50% ;
+    height: 50%;
+    position: absolute;
+}
+.product p{
+    color: #00F881;
+    font-size: 3em;
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+}
+nav a:focus{
+   box-shadow: inset 5px 5px 5px 5px grey;
+   position: relative;
+   top: 5px;
+   transition: 1s ease-in;
+}
+.smile:hover{
+transform: translateX(400%);
+transition: 2s ease-in ;
+}
+.product:hover{
+  transform: scale(2);
+  transition: 2s linear;
+  box-shadow: 10px 10px 10px 20px grey;
+  position: sticky;
+}
+
+
