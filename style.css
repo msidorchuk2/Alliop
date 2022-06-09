@@ -156,6 +156,7 @@ transition: 2s ease-in ;
   transition: 2s linear;
   box-shadow: 10px 10px 10px 20px grey;
   position: sticky;
+  z-index:99999999;  
 }
 
 
